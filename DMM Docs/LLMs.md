@@ -86,11 +86,9 @@ One way into understanding an LLM is to begin with something we are well accusto
 
 Imagine typing:
 
-The capital of France is...
+- The capital of France is...
 
-A language model estimates which continuation is likely to come next.Modern generative LLMs perform a much more sophisticated version of this process.
-
-Importantly, they generally predict the next token, rather than necessarily the next complete word.
+A language model estimates which continuation is likely to come next.Modern generative LLMs perform a much more sophisticated version of this process. Importantly, they generally predict the next token, rather than necessarily the next complete word.
 
 A token might be: "cat", "ing", "2026", "," or some other frequently occurring piece of text. Generation therefore looks conceptually something like:
 
@@ -182,7 +180,7 @@ Older approaches such as classic Word2Vec typically assign a word a relatively f
 
 That contextualisation is one of the important things attention mechanisms help achieve.
 
-# Step 3: Attention
+## Step 3: Attention
 
 What is attention in a computational context? A useful intuition is:
 
@@ -214,7 +212,7 @@ The model compares queries and keys to calculate attention scores. Those scores 
 
 This is more precise than describing attention simply as **"searching for similar things."** Similarity is involved mathematically, but attention is learned, contextual and task-dependent.
 
-# Step 4: What Does Softmax Do?
+## Step 4: What Does Softmax Do?
 
 The word **softmax** appears in several places in machine learning. Softmax converts a set of numerical scores into positive values that sum to one. 
 Within an attention mechanism, softmax helps transform attention scores into normalised **attention weights**.
@@ -223,7 +221,7 @@ Near the output of a language model, a related operation can transform model sco
 
 > Softmax is not a measure of similarity. It is a mathematical function used to normalise scores.
 
-# Step 5: Layers and Scale
+## Step 5: Layers and Scale
 
 A transformer does not perform the process  above just once. Modern LLMs contain many layers. During training, the model adjusts very large numbers of numerical parameters so that its predictions become better according to its training objective. There can be numerous neural networks in the layers, as well as embeddings, attention layers, tokens, and output represnetations.
 
@@ -254,8 +252,7 @@ This repeated prediction process can eventually produce:
 * structured data;
 * and many other forms of text.
 
-
-# So Why Does Autocomplete ook intelligent?
+## So Why Does Autocomplete look intelligent?
 
 "Predicting the next token" can sound basic.
 
@@ -287,7 +284,7 @@ However:
 
  For the above steps, take a look at the following video from Luis Serrano: [watch here](https://youtu.be/fkO9T027an0?si=ruBpC73ffxhV9gLy)
 
-# From Language Model to Instruction-Following Assistant 
+## From Language Model to Instruction-Following Assistant 
 
 A model trained primarily to predict text is not automatically a good conversational assistant. For example: 
 
@@ -309,7 +306,7 @@ See: [Ouyang et al. Training Language Models to Follow Instructions with Human F
  This is why **foundation model** and **instruction-following model** should not be treated as synonyms. A foundation model refers primarily to the broad, reusable nature of a model and its training. Instruction-following describes behaviour introduced or strengthened through later adaptation and post-training. 
 
 
-# The Context Window
+## The Context Window
 
 LLMs do not have unlimited access to everything ever said to them. During a particular model invocation they operate over a finite **context window**, usually measured in tokens.
 
@@ -320,7 +317,7 @@ documents supplied to the model + retrieved search results + tool outputs.
 Different systems manage that context differently. This also means that apparent **memory** in a chatbot should not automatically be assumed to reside inside the LLM itself. An application may store information externally and insert relevant information into a later context.
 
 
-# What Can LLMs Do?
+## What Can LLMs Do?
 
 Depending on the model and surrounding system, LLMs can be useful for tasks including:
 
@@ -340,7 +337,7 @@ Depending on the model and surrounding system, LLMs can be useful for tasks incl
 
 These capabilities can make them powerful research tools.
 
-# What Can LLMs Not Guarantee?
+## What Can LLMs Not Guarantee?
 
 LLMs cannot inherently guarantee:
 
@@ -372,7 +369,7 @@ For research, this suggests asking:
 5. Can the process be documented or reproduced?
 6. Where does human judgement enter the workflow?
 
-# Three Things to Remember 
+## Three Things to Remember 
 
 ### 1. An LLM is a model, not a chatbot. 
 >  A chatbot is an application that may contain an LLM together with many other components. 
