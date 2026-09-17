@@ -1,4 +1,6 @@
+![banner](Images/DMM_LLMs.png)
 # LLMS (Large Language Models)
+> ## What LLMs can and cannot do
 ## EFI Data-Led Research Methods Training Programme
 ## Digital Method of the Month
 Schedule: 
