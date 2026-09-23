@@ -320,6 +320,7 @@ documents supplied to the model + retrieved search results + tool outputs.
 
 Different systems manage that context differently. This also means that apparent **memory** in a chatbot should not automatically be assumed to reside inside the LLM itself. An application may store information externally and insert relevant information into a later context.
 
+Further developments added to base LLMs have been added 'reasoning' and reinforcement learning approaches which have been gently linked in the above stepwise workflow. Many of the concepts are derived from cognitive sciences and abstracted into mathematical functions which have enhanced the outputs of genAI services. 
 
 ## What Can LLMs Do?
 
