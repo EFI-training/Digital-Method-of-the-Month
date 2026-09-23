@@ -141,6 +141,8 @@ For example in this each case, each value could relate to a feature.
 
 Real embeddings contain many more dimensions. Words or concepts that occur in related contexts can acquire representations that are geometrically related.
 
+Have a look at: [Huggingface, visual guide to embeddings in LLMs](https://huggingface.co/spaces/hesamation/primer-llm-embedding?section=what_are_embeddings%3F)
+
 ### Try It Yourself
 
 The TensorFlow **Embedding Projector** lets you explore high-dimensional embeddings visually:
@@ -234,7 +236,7 @@ The word **large** in Large Language Model can refer to several kinds of scale:
 * computational resources used for training;
 * scale of the architecture.
 
-# Step 6: Predicting the Next Token
+## Step 6: Predicting the Next Token
 
 After processing the context, a generative language model produces scores for possible next tokens.
 
@@ -354,6 +356,9 @@ LLMs cannot inherently guarantee:
 > Performance depends partly on the quantity, quality and representation of a language or domain in training and post-training data, and performance can vary substantially across languages.
 
 The folllowing report is a good resource for understanding more; [On the Opportunities and Risks of Foundation Models](https://crfm.stanford.edu/report).
+
+There are efforts in extracting explainability from complex and opaque models
+ here is a great walkthrough looking at whether LLMs can explain their internal mechanisms: [Interactive visual walkthrough] (https://pair.withgoogle.com/explorables/patchscopes/)
 
 ## Tool not Oracle
 Arvind Narayanan and Sayash Kapoor's work provides a particularly useful perspective here. Their broader argument encourages us to analyse AI as technology embedded within human institutions and workflows rather than treating AI systems as autonomous sources of intelligence or authority.
