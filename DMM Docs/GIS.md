@@ -113,8 +113,8 @@ Like a lot of other methods, the things you could wish to learn are many and pot
 
 **CDCS LIVE UPCOMING TRAINING ON GIS**
 
-- 06/11/26-13/11/26 Intro to Geographical Data with QGIS
-- 20/11/26 Silent Disco: Working with Named Places: How and Why to Build a Gazetteer
+- [06/11/26-13/11/26 Intro to Geographical Data with QGIS] (https://efi.ed.ac.uk/efi-event/introduction-to-geographical-data-with-qgis/)
+- [20/11/26 Silent Disco: Working with Named Places: How and Why to Build a Gazetteer] (https://efi.ed.ac.uk/efi-event/silent-disco-working-with-named-places-how-and-why-to-build-a-gazetteer/)
 - More to come in the second Semester (Geographical Data analysis with R, Geospatial Data Visualsiation etc.)
 
 **OTHER LIVE TRAINING WITHIN THE UNIVERSITY**
