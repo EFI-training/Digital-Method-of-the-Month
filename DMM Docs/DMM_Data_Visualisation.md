@@ -1,6 +1,5 @@
 # Digital Method of the Month
-!(./Images/DMM Data Vis.png)
-# Data Visualisation
+![DMM Data Visualisation](./Images/DMM%20Data%20Vis.png)# Data Visualisation
 
 # 06-11-2026
 
